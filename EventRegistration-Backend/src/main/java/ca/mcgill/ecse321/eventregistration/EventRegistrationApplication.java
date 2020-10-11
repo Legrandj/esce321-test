@@ -9,13 +9,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @SpringBootApplication
 public class EventRegistrationApplication {
 
-  public static void main(String[] args) {
-    SpringApplication.run(EventRegistrationApplication.class, args);
-  }
+	public static void main(String[] args) {
+		SpringApplication.run(EventRegistrationApplication.class, args);
+	}
 
-  @RequestMapping("/")
-  public String greeting(){
-    return "Hello world!";
-  }
-
+	@RequestMapping("/")
+	public String greeting() {
+		return "ECSE321 Event Registration Application - Backend base URL.\n"
+				+ "Use the API methods to interact with the backend!";
+	}
 }
